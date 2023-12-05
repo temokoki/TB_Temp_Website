@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    body {
+      margin: 0;
+      user-select: none;
+    }
+
+    @keyframes gradientAnim {
+      0% {
+        background-position: 0% 50%;
+      }
+
+      50% {
+        background-position: 100% 50%;
+      }
+
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+    .BG {
+      height: 100vh;
+      background-size: 500% 100%;
+      background-image: linear-gradient(70deg, #4acb3f, #9d3cba, #ea2879, #2d7f98, #1b3a9d, #722678);
+      animation: gradientAnim 10s ease infinite;
+    }
+
+    .title {
+      position: absolute;
+      top: 15%;
+      width: 100%;
+      text-align: center;
+
+      font-family: verdana;
+      font-size: 6vmin;
+      font-weight: 700;
+      color: aliceblue;
+      text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 18px 6px rgba(0, 0, 0, 0.4),
+        1px 22px 10px rgba(0, 0, 0, 0.2),
+        1px 25px 35px rgba(0, 0, 0, 0.2),
+        1px 30px 60px rgba(0, 0, 0, 0.4);
+    }
+
+    .playstoreDiv {
+      text-align: center;
+      position: absolute;
+      top: 40%;
+      width: 100%;
+      min-height: 150px;
+      max-height: 300px;
+    }
+
+    @media only screen and (orientation: landscape) {
+      .playstoreDiv {
+        height: 40vh;
+      }
+    }
+
+    @media only screen and (orientation: portrait) {
+      .playstoreDiv {
+        height: 40vw;
+      }
+    }
+
+    .playstoreImg {
+      height: 100%;
+      border-radius: 40px;
+      animation: playstoreScaleAnim 0.7s alternate infinite;
+    }
+
+    .playstoreImg:hover {
+      border-width: 0.3em;
+      border-style: dashed;
+      animation: playstoreScaleAnim 0.3s alternate infinite;
+    }
+
+    @keyframes playstoreScaleAnim {
+      from {
+        border-radius: 40px;
+        transform: scale(1);
+      }
+
+      to {
+        transform: scale(1.02);
+        border-radius: 40px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="BG">
+    <div class="title">Turbo Brains Interactive</div>
+
+    <div class=playstoreDiv>
+      <a href="https://play.google.com/store/apps/developer?id=Turbo+Brains+Interactive">
+        <img class=playstoreImg src="images/playstore.jpg">
+      </a>
+    </div>
+  </div>
+</body>
+
+</html>

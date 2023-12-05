@@ -1,0 +1,2345 @@
+
+<!-- saved from url=(0043)https://turbobrainsinteractive.com/privacy/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title></title>
+	
+	<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&amp;family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;family=Roboto+Mono:ital,wght@0,400;0,700;1,400;1,700&amp;family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&amp;family=Cardo:wght@400;700&amp;family=Inter:wght@400;700&amp;family=Lusitana:wght@400;700&amp;family=Poppins:ital,wght@0,400;0,700;1,400;1,700&amp;family=Assistant:wght@400;700&amp;family=Fanwood+Text:ital@0;1&amp;family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&amp;family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;family=Scheherazade:wght@400;700&amp;display=swap" id="font-link" rel="stylesheet" id="font-link" rel="stylesheet">
+	<style id="css" type="text/css">/* template 1 fonts */
+:root {
+    --extrabold: 800;
+    --bold: 600;
+    --paragraph: 20px;
+}
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    background: var(--background-1);
+    font-family: var(--font-family);
+    scroll-behavior: smooth;  
+}
+/*template 1*/
+main {
+    display: flex;
+}
+img {
+    max-width: 100%;
+}
+picture {
+    display: block;
+}
+.sections {
+    width: 100%;
+}
+section {
+    padding: 120px 0;
+    width: 100%;
+}
+.container-sml {
+    max-width: 820px;
+    width: 100%;
+    padding: 0 20px;
+    margin: auto;
+}
+.container-lrg {
+    max-width: 1280px;
+    padding: 0 20px;
+    width: 100%;
+    margin: auto;
+}
+.container-lrg picture {
+display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container-lrg picture img {
+  min-width: 100%;
+}
+.container-lrg picture > div {
+  width: 100%;
+  max-width: 780px;
+}
+header {
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    background: var(--background-1);
+    z-index: 10;
+}
+header ul {
+    list-style: none;
+    display: flex;
+}
+header ul li:not(:last-of-type) {
+    margin-right: 20px;
+}
+header ul li:empty {
+  display: none;
+}
+// .duo {
+//   position: relative;
+// }
+// .duo::before {
+//   background-color: var(--background-1);
+//   content: '';
+//   display: block;
+//   width: 100%;
+//   height: 100%;
+//   mix-blend-mode: color;
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+// }
+
+// .duo::after {
+//   background-color: var(--background-1);
+//   content: '';
+//   display: block;
+//   width: 100%;
+//   height: 100%;
+//   mix-blend-mode: color;
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+// }
+.intro-meta {
+    width: 33.33%;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 60px 20px;
+    margin-top: 60px;
+}
+.intro-meta-picture {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background: #efefef;
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0;
+}
+
+/* projects */
+.projects  > ul {
+    list-style: none;
+}
+.projects > ul > li {
+    padding: 60px 0;
+}
+.projects > div > ul > li:last-of-type {
+    padding: 60px 0 0;
+    border-bottom: none;
+}
+.flex-spread {
+    display: flex;
+    justify-content: space-between;
+}
+.projects picture:not(:first-of-type) img {
+    margin-top: 10px;
+}
+.projects picture:last-of-type img {
+    margin-bottom: 40px;
+}
+@media screen and (max-width: 680px) {
+    .projects > ul .flex-spread {
+      display: block;
+    }
+    .projects > ul .subtitle {
+      margin-top: 10px;
+    }
+}
+/*quote*/
+.quote ul {
+    list-style: none;
+}
+.quote > div > ul > li:not(:first-of-type) {
+    margin-top: 60px;
+}
+blockquote {
+    display: flex;
+}
+blockquote .quote-source {
+    width: 33.33%;
+    padding-right: 15px;
+    margin-right: 15px;
+    flex-shrink: 0;
+}
+.quote cite {
+    font-style: normal;
+    display: block;
+}
+.quote-source-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media screen and (max-width: 680px) {
+    blockquote {
+        display: block;
+    }
+    blockquote .quote-source {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+}
+/*faq*/
+.faq > div details:first-of-type {
+    margin-top: 60px;
+    outline: none;
+    border: none;
+}
+.faq details {
+    background: var(--background-2);
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.faq details summary {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 20px;
+}
+.faq details .answer {
+    margin-top: 10px;
+    padding: 0 20px 20px 20px;
+}
+.faq-toggle {
+    appearance: none;
+    -webkit-appearance: none;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.faq-toggle svg {
+    fill: var(--svgfill);
+    width: 32px;
+    height: 32px;
+}
+/*image slider*/
+
+/*Clients*/
+.clients > div > ul {
+    list-style: none;
+}
+.clients img {
+  max-height: 50px;
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+.clients b {
+  display: block;
+}
+.clients .flex {
+    display: flex;
+    flex-flow: wrap;
+    margin-top: 40px;
+}
+.clients .flex-33 {
+    width: 33.33%;
+    padding-right: 20px;
+    margin-top: 20px;
+    flex-shrink: 0;
+}
+.clients-image {
+    max-width: 100%;
+    max-height: 40px;
+}
+@media screen and (max-width: 880px) {
+    .clients .flex {
+      display: block;
+    }
+    .clients .flex-33 {
+      width: 100%;
+      margin-top: 20px;
+      margin-right: 0;
+    }
+  }
+/*contact us*/
+.contact .flex {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.contact .flex-50 {
+    width: calc(50% - 10px);
+}
+.contact .flex-100 {
+    width: 100%;
+    margin-top: 20px;
+}
+.contact .cta {
+    width: 100%;
+}
+/*experience*/
+.experience > div > ul {
+    list-style: none;
+}
+.experience .flex {
+    display: flex;
+}
+.experience .flex-33 {
+    width: 33.33%;
+    flex-shrink: 0;
+}
+.experience > div > ul {
+    margin-top: 30px;
+}
+.experience > div > ul > li {
+    padding: 30px 0;
+}
+@media screen and (max-width: 880px) {
+    .experience .flex {
+      display: block;
+    }
+    .experience .flex-33 {
+      margin-bottom: 10px;
+      width: 100%;
+    }
+    .experience .flex-66 {
+      width: 100%;
+    }
+  }
+/*blog*/
+.blog a {
+    text-decoration: none;
+}
+.blog-item:hover h5 {
+    text-decoration: underline;
+}
+.blog-item {
+    padding: 30px 0;
+    display: block;
+}
+.blog-item:first-of-type {
+    margin-top: 30px;
+}
+.blog-item:last-of-type {
+    padding-bottom: 0;
+}
+
+/*videos*/
+.videos a {
+    text-decoration: none;
+}
+.videos-item {
+    padding: 30px 0;
+    display: block;
+}
+.videos-item:first-of-type {
+    margin-top: 30px;
+}
+.videos-item:last-of-type {
+    padding-bottom: 0;
+}
+.videos-item-perspective {
+    position: relative;
+}
+.videos-item-perspective svg {
+    width: 100%;
+    height: auto;
+}
+.videos-item-perspective iframe {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+/*skills*/
+.skills .flex {
+    display: flex;
+    flex-flow: wrap;
+}
+.skills .flex-33 {
+    width: 33.33%;
+    margin-top: 30px;
+    padding-right: 20px
+}
+.skills > div > ul {
+    list-style: none;
+    margin-top: 30px;
+}
+.skills svg {
+  color: var(--color-1);
+}
+@media screen and (max-width: 880px) {
+    .skills .flex-33 {
+      width: 50%;
+      margin-top: 20px;
+      margin-right: 0;
+    }
+  }
+/*footer*/
+footer {
+    padding: 20px 0 60px;
+}
+footer ul {
+    list-style: none;
+    display: flex;
+    flex-flow: wrap;
+}
+footer ul li:not(:last-of-type) {
+    margin-right: 20px;
+}
+.social-links ul {
+    list-style: none;
+    display: flex;
+    flex-flow: wrap;
+}
+.social-links ul li {
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.social-links ul li a {
+    font-weight: var(--bold);
+    text-decoration: underline;
+    color: var(--color-1);
+    font-size: var(--paragraph);
+    font-family: var(--fam2);
+}
+.social-links ul li a:hover {
+    color: var(--color-2)
+}
+.social-links + h2 {
+    margin-top: 30px;
+}
+input,
+textarea {
+  appearance: none;
+  -webkit-appearance: none;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 20px;
+  color: var(--color-1);
+  border-radius: 3px;
+  font-size: var(--paragraph);
+  font-family: var(--fam2);
+  border: 1px solid var(--border-color);
+  resize: none;
+  background: var(--background-2);
+}
+::-webkit-input-placeholder {
+  color: var(--color-2);
+  font-family: var(--fam2);
+}
+:-ms-input-placeholder {
+  color: var(--color-2);
+  font-family: var(--fam2);
+}
+::placeholder {
+  color: var(--color-2);
+  font-family: var(--fam2);
+}
+.navlink {
+  font-weight: var(--bold);
+  text-decoration: none;
+  color: var(--color-1);
+  font-size: var(--paragraph);
+  font-family: var(--fam2);
+}
+.navlink:hover {
+    color: var(--color-2);
+  }
+.link {
+  color: var(--color-1);
+  font-size: var(--paragraph);
+  font-family: var(--fam2);
+}
+.subtitle {
+  color: var(--color-2);
+  font-size: var(--paragraph);
+  line-height: 1.45;
+  font-weight: var(--normal);
+  font-family: var(--fam2);
+  display: flex;
+  align-items: center;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.mb10 { margin-bottom: 10px }
+.mb20 { margin-bottom: 20px }
+.mb30 { margin-bottom: 30px }
+.mt10 { margin-top: 10px }
+.mt20 { margin-top: 20px }
+.mt30 { margin-top: 30px }
+.mb40 { margin-bottom: 40px }
+.mt40 { margin-top: 40px }
+.mt60 { margin-top: 60px }
+.heading {
+  font-size: var(--heading);
+  font-family: var(--fam1);
+font-style: var(--font-style);
+  font-weight: var(--extrabold);
+  color: var(--color-1);
+  line-height: 1.45;
+}
+.subheading {
+  font-weight: var(--normal);
+  font-size: var(--subheading);
+  font-family: var(--fam2);
+  line-height: 1.45;
+  color: var(--color-1);
+  font-style: normal;
+}
+.subheading:empty {
+  height: var(--subheading-lineheight);
+}
+.intro-meta ul {
+  list-style: none;
+}
+.intro-meta ul a {
+  font-weight: var(--extrabold);
+  color: var(--color-1);
+  font-size: var(--subheading-size);
+  line-height: var(--subheading-lineheight);
+}
+.cta {
+  background: var(--cta-background);
+  color: var(--cta-color);
+  font-size: var(--paragraph);
+  font-weight: var(--bold);
+  font-family: var(--fam1);
+  padding: 20px 40px;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.emailcapture {
+  display: flex;
+}
+.emailcapture .mailchimp-input {
+  flex: 1;
+}
+.emailcapture .cta {
+  width: auto;
+  margin-left: 20px;
+}
+@media screen and (max-width: 660px) {
+  .emailcapture {
+    display: block;
+  }
+  .emailcapture input,
+  .emailcapture .cta {
+    width: 100%;
+    margin-left: 0;
+  }
+  .emailcapture .cta {
+    margin-top: 10px;
+  }
+}
+.cta + .cta {
+  color: var(--cta-background);
+  background: var(--cta-color);
+  margin-left: 20px;
+  box-shadow: inset 0 0 0 1px var(--border-color);
+}
+h3,
+.paragraph {
+  font-size: var(--paragraph);
+  line-height: 1.45;
+  color: var(--color-1);
+  font-family: var(--fam2);
+}
+.small {
+  font-size: var(--paragraph);
+  color: var(--color-1);
+  font-family: var(--fam2);
+  line-height: 1.45;
+}
+.bold {
+  font-weight: var(--bold);
+}
+.extrabold {
+  font-weight: var(--extrabold);
+  font-family: var(--fam1);
+font-style: var(--font-style);
+  font-size: var(--paragraph);
+}
+.color1 {
+    color: var(--color-1)
+}
+svg {
+    fill: var(--color-1);
+}
+.color2 {
+  color: var(--color-2)
+}
+.freeform {
+    padding: 120px 0;
+  }
+  .ProseMirror {
+    font-family: var(--fam1);
+font-style: var(--font-style);
+  }
+  img {
+    max-width: 100%;
+  }
+  .ProseMirror a {
+    color: inherit;
+  }
+  .ProseMirror h1 {
+    font-size: var(--heading);
+    font-family: var(--fam1);
+font-style: var(--font-style);
+    font-weight: var(--extrabold);
+    color: var(--color-1);
+    line-height: 1.45;
+  }
+  .ProseMirror h2 {
+    font-weight: var(--normal);
+    font-size: var(--subheading);
+    font-family: var(--fam2);
+    line-height: 1.45;
+    color: var(--color-1);
+  }
+  .ProseMirror h1 + h2 + p {
+    margin-top: 30px;
+  }
+  .ProseMirror h1 + p {
+    margin-top: 30px;
+  }
+  .ProseMirror p {
+    font-size: var(--paragraph);
+    line-height: 1.45;
+    color: var(--color-1);
+    font-family: var(--fam2);
+    font-size: var(--paragraph);
+    font-style: normal;
+  }
+  .ProseMirror ul,
+  .ProseMirror ol {
+    font-family: var(--fam2);
+    font-size: var(--paragraph);
+    padding-left: 50px;
+    color: var(--color-1);
+    margin: 0;
+  }
+  .ProseMirror blockquote {
+    border-left: 3px solid var(--color-1);
+    padding-left: 20px;
+  }
+.ProseMirror hr {
+    border: none;
+    margin: 60px 0;
+}
+.ProseMirror  hr:after {
+    content: ". . .";
+    text-align: center;
+    width: 100%;
+    display: block;
+    font-size: 18px;
+    font-family: monospace;
+    color: var(--color-1);
+}
+.ProseMirror code {
+    background: var(--background-2);
+    font-size: var(--paragraph);
+  }
+  .ProseMirror pre code {
+    width: 100%;
+    display: block;
+    white-space: pre-wrap;
+    padding: 12px;
+  }
+  .mcform {
+    display: flex;
+    max-width: 480px;
+  }
+  .mcform .cta {
+    width: auto;
+    margin-left: 10px;
+  }
+  @media screen and (max-width: 550px) {
+    .mcform {
+      flex-direction: column;
+    }
+    .mcform .cta {
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  }
+  .sections__blog {
+    margin: auto;
+  }
+  header.blog-header {
+    padding-left: 20px;
+    max-width: 760px;
+    margin: auto;
+  }
+  .blog-item-share svg {
+    fill: var(--color-2);
+    cursor: pointer;
+    width: 22px;
+    height: 22px;
+    margin-right: 12px;
+    margin-top: 40px;
+  }
+  .blog-item-share:hover svg {
+    fill: var(--color-1);
+  }
+	</style>
+	<style id="fonts" type="text/css">.template-1.font-1,
+.template-3.font-1 {
+    --fam1: -apple-system,BlinkMacSystemFont,Roboto,Open Sans,Helvetica Neue,sans-serif;
+    --fam2: -apple-system,BlinkMacSystemFont,Roboto,Open Sans,Helvetica Neue,sans-serif;
+    --font-style: normal;
+    --heading: 52px;
+    --subheading: 32px;
+    --paragraph: 24px;
+    --alt: 18px;
+}
+
+.template-1.font-2,
+.template-3.font-2 {
+    --fam1: 'Roboto Mono', monospace;
+    --fam2: 'Roboto Mono', monospace;
+    --font-style: normal;
+    --heading: 48px;
+    --subheading: 28px;
+    --paragraph: 22px;
+    --alt: 18px;
+}
+
+.template-1.font-3,
+.template-3.font-3 {
+    --fam1: 'Roboto Condensed', sans-serif;
+    --fam2: 'Roboto Condensed', sans-serif;
+    --font-style: italic;
+    --heading: 64px;
+    --subheading: 36px;
+    --paragraph: 26px;
+    --alt: 18px;
+}
+
+.template-1.font-4,
+.template-3.font-4 {
+    --fam1: 'Inter', sans-serif;
+    --fam2: 'Inter', sans-serif;
+    --font-style: normal;
+    --heading: 52px;
+    --subheading: 34px;
+    --paragraph: 24px;
+    --alt: 20px;
+}
+
+.template-1.font-5,
+.template-3.font-5 {
+    --fam1: 'Cardo', serif;
+    --fam2: 'Inter', sans-serif;
+    --font-style: normal;
+    --heading: 56px;
+    --subheading: 34px;
+    --paragraph: 24px;
+    --alt: 20px;
+}
+
+.template-1.font-6,
+.template-3.font-6 {
+    --fam1: 'Poppins', sans-serif;
+    --fam2: 'Lusitana', serif;
+    --font-style: normal;
+    --heading: 52px;
+    --subheading: 34px;
+    --paragraph: 26px;
+    --alt: 18px;
+}
+
+.template-1.font-7,
+.template-3.font-7 {
+    --fam1: 'Fanwood Text', serif;
+    --fam2: 'Assistant', sans-serif;
+    --font-style: normal;
+    --heading: 62px;
+    --subheading: 32px;
+    --paragraph: 24px;
+    --alt: 20px;
+}
+
+.template-1.font-8,
+.template-3.font-8 {
+    --fam1: 'Playfair Display', serif;
+    --fam2: 'Quattrocento Sans', sans-serif;
+    --font-style: normal;
+    --heading: 54px;
+    --subheading: 34px;
+    --paragraph: 26px;
+    --alt: 20px;
+}
+.template-1.font-9,
+.template-3.font-9 {
+    --fam1: 'Scheherazade', serif;
+    --fam2: 'Scheherazade', serif;
+    --font-style: normal;
+    --heading: 72px;
+    --subheading: 34px;
+    --paragraph: 26px;
+    --alt: 22px;
+}
+
+.template-2.font-1 {
+    --fam1: -apple-system,BlinkMacSystemFont,Roboto,Open Sans,Helvetica Neue,sans-serif;
+    --fam2: -apple-system,BlinkMacSystemFont,Roboto,Open Sans,Helvetica Neue,sans-serif;
+    --font-style: normal;
+    --heading: 30px;
+    --subheading: 18px;
+    --paragraph: 18px;
+    --alt: 12px;
+}
+
+.template-2.font-2 {
+    --fam1: 'Roboto Mono', monospace;
+    --fam2: 'Roboto Mono', monospace;
+    --font-style: normal;
+    --heading: 28px;
+    --subheading: 16px;
+    --paragraph: 16px;
+    --alt: 12px;
+}
+
+.template-2.font-3 {
+    --fam1: 'Roboto Condensed', sans-serif;
+    --fam2: 'Roboto Condensed', sans-serif;
+    --font-style: italic;
+    --heading: 36px;
+    --subheading: 20px;
+    --paragraph: 20px;
+    --alt: 14px;
+}
+
+.template-2.font-4 {
+    --fam1: 'Inter', sans-serif;
+    --fam2: 'Inter', sans-serif;
+    --font-style: normal;
+    --heading: 30px;
+    --subheading: 18px;
+    --paragraph: 18px;
+    --alt: 12px;
+}
+
+.template-2.font-5 {
+    --fam1: 'Cardo', serif;
+    --fam2: 'Inter', sans-serif;
+    --font-style: normal;
+    --heading: 52px;
+    --subheading: 30px;
+    --paragraph: 30px;
+    --alt: 20px;
+}
+
+.template-2.font-6 {
+    --fam1: 'Poppins', sans-serif;
+    --fam2: 'Lusitana', serif;
+    --font-style: normal;
+    --heading: 36px;
+    --subheading: 20px;
+    --paragraph: 20px;
+    --alt: 14px;
+}
+
+.template-2.font-7 {
+    --fam1: 'Fanwood Text', serif;
+    --fam2: 'Assistant', sans-serif;
+    --font-style: normal;
+    --heading: 36px;
+    --subheading: 20px;
+    --paragraph: 20px;
+    --alt: 14px;
+}
+
+.template-2.font-8 {
+    --fam1: 'Playfair Display', serif;
+    --fam2: 'Quattrocento Sans', sans-serif;
+    --font-style: normal;
+    --heading: 30px;
+    --subheading: 20px;
+    --paragraph: 20px;
+    --alt: 14px;
+}
+.template-2.font-9 {
+    --fam1: 'Scheherazade', serif;
+    --fam2: 'Scheherazade', serif;
+    --font-style: normal;
+    --heading: 42px;
+    --subheading: 20px;
+    --paragraph: 20px;
+    --alt: 14px;
+}
+	</style>
+	<style id="colors" type="text/css">.grayscale-1 {
+  --cta-color: white;
+  --background-1: rgba(255,255,255,1);
+  --color-1: rgba(0,0,0,1);
+  --color-2: rgba(0,0,0,.45);
+  --background-2: #f8f8f8;
+  --border-color: rgba(0,0,0,.1);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.grayscale-2 {
+  --cta-color: white;
+  --background-1: rgba(230,230,230,1);
+  --color-1: rgba(0,0,0,1);
+  --color-2: rgba(157,157,157,1);
+  --background-2: #fff;
+  --border-color: rgba(0,0,0,.1);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.grayscale-3 {
+  --cta-color: white;
+  --background-1: rgba(205,205,205,1);
+  --color-1: rgba(0,0,0,1);
+  --color-2: rgba(135,135,135,1);
+  --background-2: #f8f8f8;
+  --border-color: rgba(0,0,0,.1);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.grayscale-4 {
+  --cta-color: white;
+  --background-1: rgba(181,181,181,1);
+  --color-1: rgba(0,0,0,1);
+  --color-2: rgba(114,114,114,1);
+  --background-2: rgba(205,205,205,1);
+  --border-color: rgba(0,0,0,.1);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.grayscale-5 {
+  --cta-color: white;
+  --background-1: rgba(157,157,157,1);
+  --color-1: rgba(0,0,0,1);
+  --color-2: rgba(93,93,93,1);
+  --background-2: rgba(181,181,181,1);
+  --border-color: rgba(0,0,0,.15);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.grayscale-6 {
+  --cta-color: black;
+  --background-1: rgba(135,135,135,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(205,205,205,1);
+  --background-2: rgba(93,93,93,1);
+  --border-color: rgba(205,205,205,.3);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.grayscale-7 {
+  --cta-color: black;
+  --background-1: rgba(114,114,114,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(205,205,205,1);
+  --background-2: rgba(74,74,74,1);
+  --border-color: rgba(205,205,205,.25);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.grayscale-8 {
+  --cta-color: black;
+  --background-1: rgba(93,93,93,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(205,205,205,1);
+  --background-2: rgba(55,55,55,1);
+  --border-color: rgba(205,205,205,.25);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.grayscale-9 {
+  --cta-color: black;
+  --background-1: rgba(74,74,74,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(205,205,205,1);
+  --background-2: rgba(38,38,38,1);
+  --border-color: rgba(205,205,205,.25);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.grayscale-10 {
+  --cta-color: white;
+  --background-1: rgba(55,55,55,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(205,205,205,1);
+  --background-2: rgba(38,38,38,1);
+  --border-color: rgba(205,205,205,.2);
+  --cta-background: #000;
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.grayscale-11 {
+  --cta-color: white;
+  --background-1: rgba(38,38,38,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: #8d8d8d;
+  --background-2: #2e2e2e;
+  --border-color: rgba(205,205,205,.15);
+  --cta-background: black;
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.grayscale-12 {
+  --cta-color: white;
+  --background-1: rgba(0,0,0,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: #8d8d8d;
+  --background-2: #1c1c1c;
+  --border-color: rgba(255,255,255,.2);
+  --cta-background: rgba(55,55,55,1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+
+.lightblue-1 {
+  --cta-color: black;
+  --background-1: rgba(0,42,60,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(182,237,255,1);
+  --background-2: rgba(0,61,84,1);
+  --border-color: rgba(182,237,255,.15);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.lightblue-2 {
+  --cta-color: black;
+  --background-1: rgba(0,61,84,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(182,237,255,1);
+  --background-2:rgba(0,93,127,1);
+  --border-color: rgba(182,237,255,.3);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.lightblue-3 {
+  --cta-color: black;
+  --background-1: rgba(0,93,127,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(182,237,255,1);
+  --background-2: rgba(0,124,169,1);
+  --border-color: rgba(182,237,255,.45);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.lightblue-4 {
+  --cta-color: black;
+  --background-1: rgba(0,124,169,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(182,237,255,1);
+  --background-2: rgba(0,145,213,1);
+  --border-color: rgba(182,237,255,.6);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.lightblue-5 {
+  --cta-color: black;
+  --background-1: rgba(0,145,213,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(182,237,255,1);
+  --background-2: rgba(0,191,255,1);
+  --border-color: rgba(182,237,255,.75);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.lightblue-6 {
+  --cta-color: black;
+  --background-1: rgba(0,191,255,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(182,237,255,1);
+  --background-2: rgba(0,209,254,1);
+  --border-color: rgba(182,237,255,.9);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.lightblue-7 {
+  --cta-color: white;
+  --background-1: rgba(0,209,254,1);
+  --color-1: rgba(0,0,0,1);
+  --color-2: rgba(0,124,169,1);
+  --background-2: white;
+  --border-color: rgba(0,42,60,.15);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.lightblue-8 {
+  --cta-color: white;
+  --background-1: rgba(103,223,254,1);
+  --color-1: rgba(0,0,0,1);
+  --color-2: rgba(0,124,169,1);
+  --background-2: rgba(182,237,255,1);
+  --border-color: rgba(0,42,60,.15);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.lightblue-9 {
+  --cta-color: white;
+  --background-1: rgba(182,237,255,1);
+  --color-1: rgba(0,0,0,1);
+  --color-2: rgba(0,124,169,1);
+  --background-2: rgba(103,223,254,1);
+  --border-color: rgba(0,42,60,.15);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+
+.blue-1 {
+  --cta-color: black;
+  --background-1: rgba(0,18,71,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(198,217,255,1);
+  --background-2: rgba(0,32,107,1);
+  --border-color: : rgba(198,217,255,1,.1);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.blue-2 {
+  --cta-color: black;
+  --background-1: rgba(0,32,107,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(198,217,255,1);
+  --background-2: rgba(0,46,157,1);
+  --border-color: : rgba(198,217,255,1,.2);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.blue-3 {
+  --cta-color: black;
+  --background-1: rgba(0,46,157,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(198,217,255,1);
+  --background-2: rgba(0,60,213,1);
+  --border-color: : rgba(198,217,255,1,.3);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.blue-4 {
+  --cta-color: black;
+  --background-1: rgba(0,60,213,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(198,217,255,1);
+  --background-2: rgba(0,68,255,1);
+  --border-color: : rgba(198,217,255,1,.4);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.blue-5 {
+  --cta-color: black;
+  --background-1: rgba(0,68,255,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(198,217,255,1);
+  --background-2: rgba(17,112,255,1);
+  --border-color: : rgba(198,217,255,1,.5);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.blue-6 {
+  --cta-color: black;
+  --background-1: rgba(17,112,255,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(198,217,255,1);
+  --background-2: rgba(84,147,255,1);
+  --border-color: : rgba(198,217,255,1,.6);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.blue-7 {
+  --cta-color: white;
+  --background-1: rgba(84,147,255,1);
+  --color-1: rgba(0,0,0,1);
+  --color-2: rgba(0,68,255,1);
+  --background-2: rgba(144,185,255,1);
+  --border-color: rgba(0,68,255,.15);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.blue-8 {
+  --cta-color: white;
+  --background-1: rgba(144,185,255,1);
+  --color-1: rgba(0,0,0,1);
+  --color-2: rgba(0,68,255,1);
+  --background-2: rgba(198,217,255,1);
+  --border-color: rgba(0,68,255,.1);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.blue-9 {
+  --cta-color: white;
+  --background-1: rgba(198,217,255,1);
+  --color-1: rgba(0,0,0,1);
+  --color-2: rgba(0,68,255,1);
+  --background-2: rgba(144,185,255,1);
+  --border-color: rgba(0,68,255,.05);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+
+.purple-1 {
+  --cta-color: black;
+  --background-1: rgba(17, 5, 60,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(217, 199, 253,1);
+  --background-2: rgba(26, 12, 81,1);
+  --border-color: rgba(217, 199, 253,.1);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.purple-2 {
+  --cta-color: black;
+  --background-1: rgba(26, 12, 81,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(217, 199, 253,1);
+  --background-2: rgba(43, 9, 118,1);
+  --border-color: rgba(217, 199, 253,.2);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.purple-3 {
+  --cta-color: black;
+  --background-1: rgba(43, 9, 118,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(217, 199, 253,1);
+  --background-2: rgba(55, 26, 146,1);
+  --border-color: rgba(217, 199, 253,.3);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.purple-4 {
+  --cta-color: black;
+  --background-1: rgba(55, 26, 146,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(217, 199, 253,1);
+  --background-2: rgba(77, 34, 179,1);
+  --border-color: rgba(217, 199, 253,.4);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.purple-5 {
+  --cta-color: black;
+  --background-1: rgba(77, 34, 179,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(217, 199, 253,1);
+  --background-2: rgba(94, 47, 235,1);
+  --border-color: rgba(217, 199, 253,.5);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.purple-6 {
+  --cta-color: black;
+  --background-1: rgba(94, 47, 235,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(217, 199, 253,1);
+  --background-2: rgba(133, 78, 253,1);
+  --border-color: rgba(217, 199, 253,.6);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.purple-7 {
+  --cta-color: white;
+  --background-1: rgba(133, 78, 253,1);
+  --color-1: rgba(0,0,0,1);
+  --color-2: rgb(77, 34, 179);
+  --background-2: rgba(175, 140, 252,1);
+  --border-color: rgba(77, 34, 179,.15);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.purple-8 {
+  --cta-color: white;
+  --background-1: rgba(175, 140, 252,1);
+  --color-1: rgba(0,0,0,1);
+  --color-2: rgb(77, 34, 179);
+  --background-2: rgba(217, 199, 253,1);
+  --border-color: rgba(77, 34, 179,.1);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.purple-9 {
+  --cta-color: white;
+  --background-1: rgba(217, 199, 253,1);
+  --color-1: rgba(0,0,0,1);
+  --color-2: rgb(77, 34, 179);
+  --background-2: rgba(175, 140, 252,1);
+  --border-color: rgba(77, 34, 179,.05);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+
+.lightpurple-1 {
+  --cta-color: black;
+  --background-1: rgba(47, 5, 60,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(217, 199, 253,1);
+  --background-2: rgba(69, 14, 88,1);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.lightpurple-2 {
+  --cta-color: black;
+ --background-1: rgba(69, 14, 88,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(217, 199, 253,1);
+  --background-2: rgba(96, 25, 124,1);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.lightpurple-3 {
+  --cta-color: black;
+ --background-1: rgba(96, 25, 124,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(217, 199, 253,1);
+  --background-2: rgba(121, 33, 157,1);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.lightpurple-4 {
+  --cta-color: black;
+ --background-1: rgba(121, 33, 157,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(217, 199, 253,1);
+  --background-2: rgba(152, 42, 187,1);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.lightpurple-5 {
+  --cta-color: black;
+ --background-1: rgba(152, 42, 187,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(217, 199, 253,1);
+  --background-2: rgba(190, 55, 243,1);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.lightpurple-6 {
+  --cta-color: black;
+ --background-1: rgba(190, 55, 243,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(217, 199, 253,1);
+  --background-2: rgba(210, 87, 253,1);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.lightpurple-7 {
+  --cta-color: white;
+ --background-1: rgba(210, 87, 253,1);
+  --color-1: rgba(0,0,0,1);
+  --color-2: rgb(121, 33, 157);
+  --background-2: rgba(227, 145, 253,1);
+  --border-color: rgba(121, 33, 157,.15);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.lightpurple-8 {
+  --cta-color: white;
+  --background-1: rgba(227, 145, 253,1);
+  --color-1: rgba(0,0,0,1);
+  --color-2: rgb(121, 33, 157);
+  --background-2: rgba(238, 202, 254,1);
+  --border-color: rgba(121, 33, 157,.1);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.lightpurple-9 {
+  --cta-color: white;
+  --background-1: rgba(238, 202, 254,1);
+  --color-1: rgba(0,0,0,1);
+  --color-2: rgb(121, 33, 157);
+  --background-2: rgba(227, 145, 253,1);
+  --border-color: rgba(121, 33, 157,.05);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+
+.pink-1 {
+  --cta-color: black;
+  --background-1: rgba(59, 8, 26,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(248, 211, 222,1);
+  --background-2: rgba(84, 16, 41,1);
+  --border-color: rgba(248, 211, 222,.1);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.pink-2 {
+  --cta-color: black;
+  --background-1: rgba(84, 16, 41,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(248, 211, 222,1);
+  --background-2: rgba(119, 26, 62,1);
+  --border-color: rgba(248, 211, 222,.2);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.pink-3 {
+  --cta-color: black;
+  --background-1: rgba(119, 26, 62,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(248, 211, 222,1);
+  --background-2: rgba(152, 36, 80,1);
+  --border-color: rgba(248, 211, 222,.3);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.pink-4 {
+  --cta-color: black;
+  --background-1: rgba(152, 36, 80,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(248, 211, 222,1);
+  --background-2: rgba(186, 44, 92,1);
+  --border-color: rgba(248, 211, 222,.4);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.pink-5 {
+  --cta-color: black;
+  --background-1: rgba(186, 44, 92,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(248, 211, 222,1);
+  --background-2: rgba(230, 59, 123,1);
+  --border-color: rgba(248, 211, 222,.5);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.pink-6 {
+  --cta-color: black;
+  --background-1: rgba(230, 59, 123,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(248, 211, 222,1);
+  --background-2: rgba(238, 112, 158,1);
+  --border-color: rgba(248, 211, 222,.6);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.pink-7 {
+  --cta-color: white;
+  --background-1: rgba(238, 112, 158,1);
+  --color-1: rgba(0,0,0,1);
+  --color-2: rgb(186, 44, 92);
+  --background-2: rgba(243, 163, 192,1);
+  --border-color: rgba(186, 44, 92,.15);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.pink-8 {
+  --cta-color: white;
+  --background-1: rgba(243, 163, 192,1);
+  --color-1: rgba(0,0,0,1);
+  --color-2: rgb(186, 44, 92);
+  --background-2: rgba(248, 211, 222,1);
+  --border-color: rgba(186, 44, 92,.1);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.pink-9 {
+  --cta-color: white;
+  --background-1: rgba(248, 211, 222,1);
+  --color-1: rgba(0,0,0,1);
+  --color-2: rgb(186, 44, 92);
+  --background-2: rgba(243, 163, 192,1);
+  --border-color: rgba(186, 44, 92,.05);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+
+.red-1 {
+  --cta-color: black;
+  --background-1: rgba(92, 7, 2,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(255, 218, 216,1);
+  --background-2: rgba(129, 17, 1,1);
+  --border-color: rgba(255, 218, 216,.1);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.red-2 {
+  --cta-color: black;
+  --background-1: rgba(129, 17, 1,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(255, 218, 216,1);
+  --background-2: rgba(181, 26, 0,1);
+  --border-color: rgba(255, 218, 216,.2);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.red-3 {
+  --cta-color: black;
+  --background-1: rgba(181, 26, 0,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(255, 218, 216,1);
+  --background-2: rgba(226, 36, 3,1);
+  --border-color: rgba(255, 218, 216,.3);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.red-4 {
+  --cta-color: black;
+  --background-1: rgba(226, 36, 3,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(255, 218, 216,1);
+  --background-2: rgba(255, 63, 23,1);
+  --border-color: rgba(255, 218, 216,.4);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.red-5 {
+  --cta-color: black;
+  --background-1: rgba(255, 63, 23,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(255, 218, 216,1);
+  --background-2: rgba(255, 97, 78,1);
+  --border-color: rgba(255, 218, 216,.5);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.red-6 {
+  --cta-color: black;
+  --background-1: rgba(255, 97, 78,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(255, 218, 216,1);
+  --background-2: rgba(253, 140, 128,1);
+  --border-color: rgba(255, 218, 216,.6);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.red-7 {
+  --cta-color: white;
+  --background-1: rgba(253, 140, 128,1);
+  --color-1: rgba(0,0,0,1);
+  --color-2: rgb(181, 26, 0);
+  --background-2: rgba(255, 181, 173,1);
+  --border-color: rgba(181, 26, 0,.15);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.red-8 {
+  --cta-color: white;
+  --background-1: rgba(255, 181, 173,1);
+  --color-1: rgba(0,0,0,1);
+  --color-2: rgb(181, 26, 0);
+  --background-2: white;
+  --border-color: rgba(181, 26, 0,.1);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.red-9 {
+  --cta-color: white;
+  --background-1: rgba(255, 218, 216,1);
+  --color-1: rgba(0,0,0,1);
+  --color-2: rgb(181, 26, 0);
+  --background-2: rgba(255, 181, 173,1);
+  --border-color: rgba(181, 26, 0,.05);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+
+.orange-1 {
+  --cta-color: black;
+  --background-1: rgba(90, 29, 0,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(254, 227, 213,1);
+  --background-2: rgba(122, 42, 0,1);
+  --border-color: rgba(254, 227, 213,.1);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.orange-2 {
+  --cta-color: black;
+  --background-1: rgba(122, 42, 0,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(254, 227, 213,1);
+  --background-2: rgba(173, 61, 0,1);
+  --border-color: rgba(254, 227, 213,.2);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.orange-3 {
+  --cta-color: black;
+  --background-1: rgba(173, 61, 0,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(254, 227, 213,1);
+  --background-2: rgba(217, 80, 0,1);
+  --border-color: rgba(254, 227, 213,.3);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.orange-4 {
+  --cta-color: black;
+  --background-1: rgba(217, 80, 0,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(254, 227, 213,1);
+  --background-2: rgba(255, 105, 3,1);
+  --border-color: rgba(254, 227, 213,.4);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.orange-5 {
+  --cta-color: black;
+  --background-1: rgba(255, 105, 3,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(254, 227, 213,1);
+  --background-2: rgba(254, 133, 70,1);
+  --border-color: rgba(254, 227, 213,.5);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.orange-6 {
+  --cta-color: black;
+  --background-1: rgba(254, 133, 70,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(254, 227, 213,1);
+  --background-2: rgba(255, 165, 124,1);
+  --border-color: rgba(254, 227, 213,.6);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.orange-7 {
+  --cta-color: white;
+  --background-1: rgba(255, 165, 124,1);
+  --color-1: rgba(0,0,0,1);
+  --color-2: rgb(173, 61, 0);
+  --background-2: rgba(254, 197, 171,1);
+  --border-color: rgba(173, 61, 0,.15);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.orange-8 {
+  --cta-color: white;
+  --background-1: rgba(254, 197, 171,1);
+  --color-1: rgba(0,0,0,1);
+  --color-2: rgb(173, 61, 0);
+  --background-2: rgba(254, 227, 213,1);
+  --border-color: rgba(173, 61, 0,.1);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.orange-9 {
+  --cta-color: white;
+  --background-1: rgba(254, 227, 213,1);
+  --color-1: rgba(0,0,0,1);
+  --color-2: rgb(173, 61, 0);
+  --background-2: rgba(254, 197, 171,1);
+  --border-color: rgba(173, 61, 0,.05);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+
+.brown-1 {
+  --cta-color: black;
+  --background-1: rgba(86, 51, 0,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(254, 235, 210,1);
+  --background-2: rgba(122, 74, 0,1);
+  --border-color: rgba(254, 235, 210,.1);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.brown-2 {
+  --cta-color: black;
+  --background-1: rgba(122, 74, 0,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(254, 235, 210,1);
+  --background-2: rgba(169, 104, 0,1);
+  --border-color: rgba(254, 235, 210,.2);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.brown-3 {
+  --cta-color: black;
+  --background-1: rgba(169, 104, 0,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(254, 235, 210,1);
+  --background-2: rgba(210, 129, 1,1);
+  --border-color: rgba(254, 235, 210,.3);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.brown-4 {
+  --cta-color: black;
+  --background-1: rgba(210, 129, 1,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(254, 235, 210,1);
+  --background-2: rgba(253, 170, 2,1);
+  --border-color: rgba(254, 235, 210,.4);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.brown-5 {
+  --cta-color: black;
+  --background-1: rgba(253, 170, 2,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(254, 235, 210,1);
+  --background-2: rgba(254, 180, 63,1);
+  --border-color: rgba(254, 235, 210,.5);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.brown-6 {
+  --cta-color: black;
+  --background-1: rgba(254, 180, 63,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(254, 235, 210,1);
+  --background-2: rgba(253, 199, 117,1);
+  --border-color: rgba(254, 235, 210,.6);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.brown-7 {
+  --cta-color: white;
+  --background-1: rgba(253, 199, 117,1);
+  --color-1: rgba(0,0,0,1);
+  --color-2: rgb(169, 104, 0);
+  --background-2: rgba(255, 217, 168,1);
+  --border-color: rgba(169, 104, 0,.15);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.brown-8 {
+  --cta-color: white;
+  --background-1: rgba(255, 217, 168,1);
+  --color-1: rgba(0,0,0,1);
+  --color-2: rgb(169, 104, 0);
+  --background-2: rgba(254, 235, 210,1);
+  --border-color: rgba(169, 104, 0,.1);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.brown-9 {
+  --cta-color: white;
+  --background-1: rgba(254, 235, 210,1);
+  --color-1: rgba(0,0,0,1);
+  --color-2: rgb(169, 104, 0);
+  --background-2: rgba(255, 217, 168,1);
+  --border-color: rgba(169, 104, 0,.05);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+
+.ocher-1 {
+  --cta-color: black;
+  --background-1: rgba(86, 61, 0,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(254, 242, 212,1);
+  --background-2: rgba(119, 88, 0,1);
+  --border-color: rgba(254, 242, 212,.1);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.ocher-2 {
+  --cta-color: black;
+  --background-1: rgba(119, 88, 0,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(254, 242, 212,1);
+  --background-2: rgba(165, 122, 2,1);
+  --border-color: rgba(254, 242, 212,.2);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.ocher-3 {
+  --cta-color: black;
+  --background-1: rgba(165, 122, 2,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(254, 242, 212,1);
+  --background-2: rgba(209, 155, 2,1);
+  --border-color: rgba(254, 242, 212,.3);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.ocher-4 {
+  --cta-color: black;
+  --background-1: rgba(209, 155, 2,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(254, 242, 212,1);
+  --background-2: rgba(252, 200, 0,1);
+  --border-color: rgba(254, 242, 212,.4);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.ocher-5 {
+  --cta-color: black;
+  --background-1: rgba(252, 200, 0,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(254, 242, 212,1);
+  --background-2: rgba(254, 203, 62,1);
+  --border-color: rgba(254, 242, 212,.5);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.ocher-6 {
+  --cta-color: white;
+  --background-1: #fedb43;
+  --color-1: black;
+  --color-2: rgba(0,0,0,.7);
+  --background-2: white;
+  --border-color: rgba(254, 242, 212,.6);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.ocher-7 {
+  --cta-color: white;
+  --background-1: rgba(254, 217, 117,1);
+  --color-1: rgba(0,0,0,1);
+  --color-2: rgb(165, 122, 2);
+  --background-2: rgba(253, 227, 168,1);
+  --border-color: rgba(165, 122, 2,.15);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.ocher-8 {
+  --cta-color: white;
+  --background-1: rgba(253, 227, 168,1);
+  --color-1: rgba(0,0,0,1);
+  --color-2: rgb(165, 122, 2);
+  --background-2: white;
+  --border-color: rgba(165, 122, 2,.1);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.ocher-9 {
+  --cta-color: white;
+  --background-1: rgba(254, 242, 212,1);
+  --color-1: rgba(0,0,0,1);
+  --color-2: rgb(165, 122, 2);
+  --background-2: rgba(255, 248, 147,1);
+  --border-color: rgba(165, 122, 2,.05);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+
+.yellow-1 {
+  --cta-color: black;
+  --background-1: rgba(101, 96, 0,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(253, 252, 221,1);
+  --background-2: rgba(140, 133, 5,1);
+  --border-color: rgba(253, 252, 221,.1);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.yellow-2 {
+  --cta-color: black;
+  --background-1: rgba(140, 133, 5,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(253, 252, 221,1);
+  --background-2: rgba(194, 188, 0,1);
+  --border-color: rgba(253, 252, 221,.2);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.yellow-3 {
+  --cta-color: black;
+  --background-1: rgba(194, 188, 0,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(253, 252, 221,1);
+  --background-2: rgba(243, 236, 0,1);
+  --border-color: rgba(253, 252, 221,.3);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.yellow-4 {
+  --cta-color: black;
+  --background-1: rgba(243, 236, 0,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(253, 252, 221,1);
+  --background-2: rgba(253, 251, 67,1);
+  --border-color: rgba(253, 252, 221,.4);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.yellow-5 {
+  --cta-color: white;
+  --background-1: rgba(253, 251, 67,1);
+  --color-1: rgba(0,0,0,1);
+  --color-2: rgb(140, 133, 5);
+  --background-2: rgba(254, 247, 104,1);
+  --border-color: rgba(140, 133, 5,.25);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.yellow-6 {
+  --cta-color: white;
+  --background-1: rgba(254, 247, 104,1);
+  --color-1: rgba(0,0,0,1);
+  --color-2: rgb(140, 133, 5);
+  --background-2: rgba(255, 248, 147,1);
+  --border-color: rgba(140, 133, 5,.2);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.yellow-7 {
+  --cta-color: white;
+  --background-1: rgba(255, 248, 147,1);
+  --color-1: rgba(0,0,0,1);
+  --color-2: rgb(140, 133, 5);
+  --background-2: rgba(253, 251, 185,1);
+  --border-color: rgba(140, 133, 5,.15);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.yellow-8 {
+  --cta-color: white;
+  --background-1: rgba(253, 251, 185,1);
+  --color-1: rgba(0,0,0,1);
+  --color-2: rgb(140, 133, 5);
+  --background-2: rgba(253, 252, 221,1);
+  --border-color: rgba(140, 133, 5,.1);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.yellow-9 {
+  --cta-color: white;
+  --background-1: rgba(253, 252, 221,1);
+  --color-1: rgba(0,0,0,1);
+  --color-2: rgb(140, 133, 5);
+  --background-2: rgba(227, 238, 99,1);
+  --border-color: rgba(140, 133, 5,.05);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+
+.chateruse-1 {
+  --cta-color: black;
+  --background-1: rgba(78, 86, 4,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(245, 249, 219,1);
+  --background-2: rgba(111, 118, 12,1);
+  --border-color: rgba(245, 249, 219,.1);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.chateruse-2 {
+  --cta-color: black;
+  --background-1: rgba(111, 118, 12,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(245, 249, 219,1);
+  --background-2: rgba(154, 164, 11,1);
+  --border-color: rgba(245, 249, 219,.2);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.chateruse-3 {
+  --cta-color: black;
+  --background-1: rgba(154, 164, 11,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(245, 249, 219,1);
+  --background-2: rgba(194, 208, 19,1);
+  --border-color: rgba(245, 249, 219,.3);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.chateruse-4 {
+  --cta-color: black;
+  --background-1: rgba(194, 208, 19,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(245, 249, 219,1);
+  --background-2: rgba(216, 236, 55,1);
+  --border-color: rgba(245, 249, 219,.4);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.chateruse-5 {
+  --cta-color: white;
+  --background-1: rgba(216, 236, 55,1);
+  --color-1: rgba(0,0,0,1);
+  --color-2: rgb(111, 118, 12);
+  --background-2: rgba(227, 238, 99,1);
+  --border-color: rgba(111, 118, 12,.25);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.chateruse-6 {
+  --cta-color: white;
+  --background-1: rgba(227, 238, 99,1);
+  --color-1: rgba(0,0,0,1);
+  --color-2: rgb(111, 118, 12);
+  --background-2: rgba(234, 241, 143,1);
+  --border-color: rgba(111, 118, 12,.2);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.chateruse-7 {
+  --cta-color: white;
+  --background-1: rgba(234, 241, 143,1);
+  --color-1: rgba(0,0,0,1);
+  --color-2: rgb(111, 118, 12);
+  --background-2: rgba(241, 245, 183,1);
+  --border-color: rgba(111, 118, 12,.15);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.chateruse-8 {
+  --cta-color: white;
+  --background-1: rgba(241, 245, 183,1);
+  --color-1: rgba(0,0,0,1);
+  --color-2: rgb(111, 118, 12);
+  --background-2: rgba(245, 249, 219,1);
+  --border-color: rgba(111, 118, 12,.1);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.chateruse-9 {
+  --cta-color: white;
+  --background-1: rgba(245, 249, 219,1);
+  --color-1: rgba(0,0,0,1);
+  --color-2: rgb(111, 118, 12);
+  --background-2: rgba(203, 232, 180,1);
+  --border-color: rgba(111, 118, 12,.05);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+
+.green-1 {
+  --cta-color: black;
+  --background-1: rgba(38, 61, 16,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(222, 237, 213,1);
+  --background-2: rgba(56, 86, 24,1);
+  --border-color: rgba(222, 237, 213,.1);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.green-2 {
+  --cta-color: black;
+  --background-1: rgba(56, 86, 24,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(222, 237, 213,1);
+  --background-2: rgba(78, 122, 40,1);
+  --border-color: rgba(222, 237, 213,.2);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.green-3 {
+  --cta-color: black;
+  --background-1: rgba(78, 122, 40,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(222, 237, 213,1);
+  --background-2: rgba(103, 156, 50,1);
+  --border-color: rgba(222, 237, 213,.3);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.green-4 {
+  --cta-color: black;
+  --background-1: rgba(103, 156, 50,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(222, 237, 213,1);
+  --background-2: rgba(116, 188, 63,1);
+  --border-color: rgba(222, 237, 213,.4);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.green-5 {
+  --cta-color: black;
+  --background-1: rgba(116, 188, 63,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(222, 237, 213,1);
+  --background-2: rgba(150, 211, 94,1);
+  --border-color: rgba(222, 237, 213,.5);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.green-6 {
+  --cta-color: black;
+  --background-1: rgba(150, 211, 94,1);
+  --color-1: rgba(255,255,255,1);
+  --color-2: rgba(222, 237, 213,1);
+  --background-2: rgba(177, 220, 139,1);
+  --border-color: rgba(222, 237, 213,.6);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.green-7 {
+  --cta-color: white;
+  --background-1: rgba(177, 220, 139,1);
+  --color-1: rgba(0,0,0,1);
+  --color-2: rgba(56, 86, 24,1);
+  --background-2: rgba(203, 232, 180,1);
+  --border-color: rgba(56, 86, 24,.2);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.green-8 {
+  --cta-color: white;
+  --background-1: rgba(203, 232, 180,1);
+  --color-1: rgba(0,0,0,1);
+  --color-2: rgba(56, 86, 24,1);
+  --background-2: rgba(222, 237, 213,1);
+  --border-color: rgba(56, 86, 24,.1);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+.green-9 {
+  --cta-color: white;
+  --background-1: rgba(222, 237, 213,1);
+  --color-1: rgba(0,0,0,1);
+  --color-2: rgba(56, 86, 24,1);
+  --background-2: rgba(203, 232, 180,1);
+  --border-color: rgba(56, 86, 24,.05);
+  --cta-background: var(--color-1);
+  background: var(--background-1);
+  color: var(--color-2);
+}
+	</style>
+</head>
+<body>
+<div activepageblocks="b_71828ff9-8d3e-4856-8929-6a5dd0837217,b_aa9cc542-2ba3-4cf4-a2c2-de64debede07" class="template-3 general font-1 lightblue-5">
+<div class="content-820">
+<header>
+<nav class="container-sml">
+<ul>
+	<li></li>
+</ul>
+</nav>
+</header>
+
+<main>
+<div class="sections">
+<section blogs="[object Object]" class="intro-content" id="hero-0">
+<div class="container-sml">
+<h1 class="heading mb10">Turbo Brains Interactive</h1>
+
+<p></p>
+
+<p></p>
+
+<nav class="social-links">
+<ul>
+</ul>
+</nav>
+
+<div>
+<div class="ProseMirror" contenteditable="false" tabindex="0">
+<h1>Terms of Service</h1>
+
+<p>This Terms of Services (“Agreement”), govern the relationship between the user and the Turbo Brains Interactive (“TBI”) regarding use of TBI games and related services (“Services”) provided by TBI.
+
+Please read this Agreement and our Privacy Policy carefully before you start using, downloading, or accessing to the Services.
+
+By using Services in any way, you represent that you are older than 18 or older than 16 and your parent or guardian has reviewed and accepted this Agreement. Services will not be provided to those younger than 16 years old.
+
+Commercial use of Services is prohibited and use for commercial purposes is unlawful. To this end, you acknowledge and accept that you use the Services for entertainment purposes within personal use.
+
+By using the Services or downloading any of our games from app stores, you accept the Agreement. If you do not agree to the Agreement, you may not use or otherwise access the Services.
+</p>
+
+
+
+
+
+
+
+
+
+<p>​</p>
+
+<p><strong>Right of Use</strong></p>
+
+<p>Without prejudice to other provisions of this Agreement, TBI grants users a non-exclusive, non-transferable, non-sublicensable, revocable limited right subject to the limitations below to access and use the Service. As part of right of use, users may only access to or use Services for their personal and non-commercial entertainment purpose.<p>​</p></p>
+
+
+
+
+
+
+
+
+
+<p><strong>Liabilities of the User</strong></p>
+
+<p>The rights granted to users in this Agreement are subject to the following restrictions:
+
+Users shall not license, sell, rent, lease, transfer, assign, distribute, copy, communicate to public, represent, publish, or otherwise commercially exploit the Service;
+Users shall not modify, translate, adapt, merge, make derivative works of, disassemble, decompile, reverse compile or reverse engineer the Services in whole or in part;
+Users shall not access to the Services in order to build a similar or competitive service or application;
+except as expressly stated herein, no part of Service may be copied, reproduced, distributed, republished, downloaded, displayed, posted or transmitted in any form or by any means
+The users undertake that they shall not conduct any of the following actions under this Agreement:
+
+Access to and use of TBI's information systems,
+Initiate or attempt an attack to TBI’s information systems or spread attack supporting viruses,
+Disable or change software that TBI uses regarding cybersecurity,
+Send invitation, advertisement or e-mail on TBI’s behalf by using TBI trademarks and logos,
+Make any sexually explicit, obscene, racist posts or posts about children on behalf of TBI or mention the name or logo of TBI on such content.<br>
+&nbsp;</p>
+
+<p><strong>Intellectual Property Rights</strong></p>
+
+<p>The Services provided to the users under this Agreement are not sold; users are only given the right of use as explained under Article 1 above.
+
+TBI owns all rights, title and interest, including without limitations any games, titles, computer code, themes, objects, characters, character names, stories, in-game dialogues, catch phrases, concepts, artwork, animations, sounds, musical compositions, audio-visual effects, method of operation, documentation, character profile information, accounts, virtual currency and virtual items, and material produced by TBI and/or received or made available while playing the games or developed during the course of the games, and all related intellectual property rights in relation to the Services.
+
+Copyright, trademarks, and all other proprietary rights displayed in the Services (including, but not limited to, software, graphics, and logos) are belong to TBI. Unless otherwise is stipulated under this Agreement, the users are not allowed to copy, use, republish, modify, download, distribute, license or reverse engineer.<br>
+&nbsp;</p>
+
+
+
+
+<p><strong>Virtual Elements</strong></p><p>TBI games contains virtual game currencies (“Virtual Currency”), such as coins, cash, and/or diamonds, that is used to purchase virtual items (“Virtual Items”) (“Virtual Currency” and “Virtual Items” shall be referred to as “Virtual Elements”). The users may purchase a limited, personal, non-transferable, non-sublicensable and revocable license to use the Virtual Elements. Platform providers and payment service providers conduct all payment transactions in relation to the Virtual Elements. By purchasing in-game Virtual Elements, the users agree to the terms of services of platform providers and payment service providers.
+
+Virtual Elements cannot be exchanged with TBI or any third party for real money, goods, products or services. TBI has no liability for hacking or loss of the users’ Virtual Elements. Price and availability of Virtual Elements may be reorganized, changed or disallowed by TBI at any time, with or without notice. Refunds in relation to the Virtual Elements are realized by the relevant platform providers subject to their policies.<br>
+&nbsp;</p><p><strong>Warranty Disclaimer</strong></p><p>TBI provides the Services to the users “as is” basis without any warranties of any kind. TBI does not warrant that the users will be able to access or use of the Services at the times and locations of users’ choosing; that Services will be uninterrupted or error-free; that defects will be corrected; or that the Services will be free of viruses or other harmful components.<br>
+&nbsp;</p><p><strong>Limitation on Liability</strong></p><p>In no event shall TBI be liable to the users or any third party for any indirect, incidental, consequential, special or punitive damages, including but not limited to, loss of revenues, lost profits or business interruption, arising from or in relation to the Agreement. Access to and use of the Services are at users’ own discretion and risk, and the users will be solely responsible for any damage to their mobile device resulting therefrom. TBI’s liability will be limited to fixing access related problems. TBI’s liability arising from or in relation to the Agreement shall not be more than the amount that the user have paid to TBI in accordance with the Agreement in the six (6) months immediately preceding the date on which the user first asserts a claim. The users agree that if they have not paid anything to TBI during such time period, their sole remedy for any dispute with TBI is to discontinue using the Services.<br>
+&nbsp;</p><p><strong>Indemnity</strong></p><p>The users agree to defend, indemnify and hold harmless TBI from and against any claims, suits, damages, indemnification claims, or expenses including reasonable attorneys’ fees brought by third parties resulting from or relating to use of the Services, user content, or users’ violation of this Agreement.<br>
+&nbsp;</p><p><strong>Modifications</strong></p><p>TBI reserves right to amend the provisions of the Agreement at any time.  The latest version of the Agreement will be published on TBI’s website.<br>
+&nbsp;</p><p><strong>Term and Termination</strong></p><p>This Agreement shall enter into force on the date of activation or use of Services by the user. The users will be assumed to have accepted this Agreement and any amendments thereof by activating/downloading/using the Services.
+
+This Agreement shall be effective for the period of use of the Services and shall terminate if the user discontinue using the Services or this Agreement is terminated by TBI.<br>
+&nbsp;</p><p><strong>Dispute Resolution and Applicable Law</strong></p><p>This Agreement and all disputes relating to the performance or interpretation of any term of this Agreement shall be construed under and governed by Georgian Law, without regard to any conflict of law principles. All disputes or claims arising out of or in connection with this Agreement shall be finally settled by Georgian Courts and Enforcement Offices.<br>
+&nbsp;</p><p><strong>Notices</strong></p><p>TBI may notify the users via postings on its website or in the games and via e-mail provided by the user. All notices required from the user as per the Agreement shall be made to TurboBrainsInteractive@gmail.com.<br>
+&nbsp;</p></div>
+</div>
+</div>
+
+<div class="container-lrg"><picture>
+<div class="mt60 duo"></div>
+</picture></div>
+</section>
+
+<footer>
+<div class="container-sml">
+<nav class="mb10">
+<ul>
+</ul>
+</nav>
+</div>
+</footer>
+</div>
+</main>
+</div>
+</div>
+
+</body></html>
