@@ -8,25 +8,17 @@
       user-select: none;
     }
 
-    @keyframes gradientAnim {
-      0% {
-        background-position: 0% 50%;
-      }
-
-      50% {
-        background-position: 100% 50%;
-      }
-
-      100% {
-        background-position: 0% 50%;
-      }
-    }
-
     .BG {
       height: 100vh;
       background-size: 500% 100%;
       background-image: linear-gradient(70deg, #4acb3f, #9d3cba, #ea2879, #2d7f98, #1b3a9d, #722678);
       animation: gradientAnim 10s ease infinite;
+    }
+
+    @keyframes gradientAnim {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
     }
 
     .title {
